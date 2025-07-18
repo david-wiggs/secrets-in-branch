@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Validate GitHub Actions Workflow",
+			"type": "shell",
+			"command": "gh",
+			"args": [
+				"workflow",
+				"list"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
